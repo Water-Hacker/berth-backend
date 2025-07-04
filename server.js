@@ -40,7 +40,7 @@ MongoClient.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true
 
 // Auto-increment every 5 minutes
 setInterval(() => {
-  const increment = Math.floor(Math.random() * (300000000 - 289000000 + 1)) + 289000000;
+  const increment = Math.floor(Math.random() * (3000 - 2100 + 1)) + 2100;
   presaleAmount += increment;
 
   if (collection) {
