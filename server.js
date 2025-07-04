@@ -2,8 +2,11 @@ const express = require("express");
 const cors = require("cors");
 const { MongoClient } = require("mongodb");
 require("dotenv").config();
+<<<<<<< HEAD
 console.log("✅ MONGO_URI Loaded:", process.env.MONGO_URI);
 
+=======
+>>>>>>> 5f876d2380660fafcc2ce87da6a23f11c3be6727
 
 const app = express();
 const PORT = process.env.PORT || 5000;
